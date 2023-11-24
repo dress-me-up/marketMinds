@@ -1,0 +1,20 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+.body {
+  width: 100vh;
+  color: white;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+  font-size: 16px;
+  font-family: "Fira Code", monospace;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Fira Code", monospace;
+  font-family: "Josefin Sans", sans-serif;
+}

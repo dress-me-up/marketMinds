@@ -1,0 +1,233 @@
+@import url("./style.css");
+
+.about-us {
+  padding: 120px 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us-title {
+  gap: 16px;
+  width: 800px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  > h3 {
+    color: #232233;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+  }
+
+  > p {
+    color: #6c6c72;
+    font-size: 16px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+}
+
+.about-us-topics {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 180px;
+}
+
+.about-us-cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about-us-card {
+  width: 570px;
+  padding: 4px 24px 24px 64px;
+  background: white;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  > h4 {
+    color: #232233;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    word-wrap: break-word;
+    margin-bottom: 16px;
+  }
+
+  > h4:before {
+    display: flex;
+    content: "";
+    position: relative;
+    top: 24px;
+    left: -40px;
+    width: 24px;
+    height: 24px;
+    background: url("../assets/check.png");
+  }
+
+  > p {
+    color: #6c6c72;
+    font-size: 16px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+}
+
+.compare-title {
+  gap: 16px;
+  width: 1000px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  > h3 {
+    color: #232233;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+  }
+
+  > p {
+    color: #6c6c72;
+    font-size: 16px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+}
+
+.next-step-container {
+  margin-top: 100px;
+  display: flex;
+  width: 80%;
+  align-items: center;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.next-step-content {
+  gap: 16px;
+  width: 550px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  > h3 {
+    color: #232233;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+  }
+
+  > p {
+    color: #6c6c72;
+    font-size: 16px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+
+  > button {
+    margin: 32px;
+    padding: 12px;
+    background: #5851ea;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+    border: none;
+    text-transform: uppercase;
+
+    color: #fff;
+    font-size: 18px;
+    font-family: Josefin Sans;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+
+  > button::before {
+    display: flex;
+    content: "";
+    position: relative;
+    left: -4px;
+    width: 35px;
+    height: 35px;
+    background: url("../assets/email-outline.png");
+    background-repeat: no-repeat;
+  }
+}
+
+.how-to-use {
+  height: 480px;
+  display: flex;
+  padding-left: 120px;
+  padding-right: 120px;
+  gap: 32px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(to right, #41337a, #6ea4bf);
+  padding-bottom: 60px;
+
+  > h3 {
+    color: white;
+    font-size: 31.25px;
+    font-family: Josefin Sans;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 47.25px;
+    word-wrap: break-word;
+  }
+
+  > p {
+    width: 1000px;
+    color: white;
+    font-size: 16px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+}
+
+.how-to-use-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -140px;
+}
